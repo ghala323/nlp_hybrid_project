@@ -1,4 +1,6 @@
 from rapidfuzz import fuzz
+from ocr_integration import perform_ocr
+
 
 SENSITIVE_KEYWORDS = [
     "صك",

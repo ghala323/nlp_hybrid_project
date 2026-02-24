@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-
+from ocr_integration import perform_ocr
 
 model_name = "bert-base-multilingual-cased"
 
